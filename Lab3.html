@@ -6,14 +6,12 @@
     <body>
         <script>
             var cTemp = 100; // temperature in celsius
-            //Lets be generous with the parentheses
-            var fTemp;
             function celsiusToFahrenheit() { //Calculate Fahrenheit 
-                ftemp = ((cTemp * 9) / 5) + 32;
+                var ftemp = ((cTemp * 9) / 5) + 32;
                 return "The Celsius temperature is " + cTemp + ", and in fahrenheit is " + fTemp;
             }
             var message = celsiusToFahrenheit();
-            alert(message + "\nCelsius temperatature is " + cTemp);
+            alert(message);
         </script>
     </body>
 </html>
